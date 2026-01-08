@@ -7,8 +7,6 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-const glowDB = require('luma-glow-db');
-
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
